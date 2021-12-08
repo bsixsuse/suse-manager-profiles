@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<image schemaversion="6.1" name="sle15-sp2">
+<image schemaversion="6.1" name="Ubuntu 20.04">
     <description type="system">
         <author>Cameron Seader</author>
         <contact>cseader@suse.com</contact>
-        <specification>SUSE Linux Enterprise 15 SP2 JeOS</specification>
+        <specification>Ubuntu 20.04</specification>
     </description>
     <preferences>
         <version>7.0.0</version>
-        <packagemanager>zypper</packagemanager>
-        <bootsplash-theme>SLE</bootsplash-theme>
-        <bootloader-theme>SLE</bootloader-theme>
+        <packagemanager>aptget</packagemanager>
+        <bootsplash-theme>Ubuntu</bootsplash-theme>
+        <bootloader-theme>Ubuntu</bootloader-theme>
 
         <locale>en_US</locale>
         <keytable>us.map.gz</keytable>
